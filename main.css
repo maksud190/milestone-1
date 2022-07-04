@@ -1,40 +1,29 @@
-.para{
-    color: rgb(0, 95, 95);
-    background-color: yellow;
-    height: 30px;
-    width: 75%;
-    font-size: 25px;
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
-
-.head{
-color: rgb(32, 252, 179);
+.st-view{
+    display: flex;
+    padding-left: 70px;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
-.tail{
-color: rgb(190, 45, 45);
-background-color: rgb(255, 248, 121);
+.header{
+    font-size: 50px;
 }
-.hot{
-color: rgb(54, 186, 54);
-background-color: aliceblue;
-}
-.tail{
-color: rgb(137, 37, 37);
-}
-
-.aram{
-font-size: large;
-background-color: rgb(200, 229, 255);
-border: 5px solid rgba(68, 255, 158, 0.458);
-margin: 10px;
-border-radius: 7px;
-padding: 15px 35px;
-text-align: justify;
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.mojaa{
-text-align: center;
+.myImage{
+    width: 50%;
+    padding-left: 250px;
+    padding-top: 30px;
 }
 span{
-color: green;
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(0, 147, 42);
+}
+button{
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgb(241, 66, 77), rgb(148, 15, 37));
+    border: 0;
+    size: 5px;
+    padding: 8px 15px;
+    border-radius: 5px;
 }
